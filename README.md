@@ -3,7 +3,7 @@
 Projeto desenvolvido para a disciplina **Linguagem de Script para Web** (IFTM - Campus Uberaba Parque Tecnológico, 2026).
 
 - **Tema escolhido:** 10. Fósseis e dinossauros
-- **Site publicado (GitHub Pages):** [Inserir link do seu GitHub Pages aqui]
+- **Site publicado (GitHub Pages):** [https://guilhermeyamato70752-lab.github.io/F-sseis-e-dinossauros-/]
 
 ## Atividade 1 — Página Semântica
 Nesta etapa foi desenvolvida a página inicial do projeto utilizando exclusivamente HTML5 semântico e CSS3 externo responsivo:
