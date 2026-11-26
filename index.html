@@ -3,8 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PaleoMundo — Fósseis e Dinossauros</title>
+  <title>Fósseis e Dinossauros da Era Mesozoica | PaleoMundo</title>
+  <meta name="description" content="Explore fósseis e dinossauros, espécies da Era Mesozoica e dinossauros do Brasil em Uberaba com dados paleontológicos e registros históricos.">
+  <link rel="canonical" href="https://paleomundo.exemplo.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fósseis e Dinossauros da Era Mesozoica | PaleoMundo">
+  <meta property="og:description" content="Conheça fósseis e dinossauros, a paleontologia da Era Mesozoica e os dinossauros do Brasil em Uberaba.">
+  <meta property="og:image" content="https://paleomundo.exemplo.com/img/og-paleomundo.jpg">
+  <meta property="og:url" content="https://paleomundo.exemplo.com/">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="icon" href="icon/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="estilo.css">
+
+  <!-- Dados Estruturados (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "PaleoMundo — Fósseis e Dinossauros",
+    "description": "Acervo educativo sobre fósseis e dinossauros, Era Mesozoica e dinossauros do Brasil em Uberaba.",
+    "url": "https://paleomundo.exemplo.com/",
+    "inLanguage": "pt-BR",
+    "about": [
+      { "@type": "Thing", "name": "Fósseis e dinossauros" },
+      { "@type": "Thing", "name": "Dinossauros do Brasil em Uberaba" },
+      { "@type": "Thing", "name": "Era Mesozoica e paleontologia" }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -14,9 +43,10 @@
       <h1>PaleoMundo: Fósseis e Dinossauros</h1>
       <nav aria-label="Principal">
         <ul>
-          <li><a href="#destaques" aria-current="page">Destaques</a></li>
-          <li><a href="#eras">Eras Geológicas</a></li>
-          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="sobre-paleontologia.html">Sobre e Sítios</a></li>
+          <li><a href="#destaques">Destaques</a></li>
+          <li><a href="#eras">Era Mesozoica</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
@@ -25,142 +55,115 @@
 
   <div class="container layout-principal">
     <main id="conteudo">
-      <!-- Seção 1: Destaques com 3 articles e figures -->
       <section id="destaques" aria-labelledby="t-destaques">
-        <h2 id="t-destaques">Descobertas e Espécies em Destaque</h2>
+        <h2 id="t-destaques">Fósseis e Dinossauros em Destaque</h2>
 
         <article>
-          <h3>Tyrannosaurus rex</h3>
+          <h3>Tyrannosaurus rex: predador do Cretáceo</h3>
           <figure>
-            <img src="img/trex-cranio.jpg" alt="Crânio fossilizado de Tyrannosaurus rex exibindo dentes serrilhados em museu" width="640" height="400">
-            <figcaption>Fóssil de crânio de T. rex. Acervo Paleontológico, <time datetime="2026-05-14">14 de maio de 2026</time>.</figcaption>
+            <img src="img/trex-cranio.jpg" alt="Crânio fossilizado de Tyrannosaurus rex com dentes serrilhados exposto em museu" width="640" height="400">
+            <figcaption>Crânio fóssil de T. rex. Registro atualizado em <time datetime="2026-11-19">19 de novembro de 2026</time>.</figcaption>
           </figure>
-          <p>O <strong>Tyrannosaurus rex</strong> foi um dos maiores predadores terrestres da história, habitando a América do Norte no final do período Cretáceo. Sua mordida exercia uma força estimada em mais de <em>cinco toneladas</em>, capaz de triturar ossos.</p>
-          <p>Catalogado originalmente em <time datetime="1905">1905</time> por Henry Fairfield Osborn.</p>
+          <p>Entre os <strong>fósseis e dinossauros</strong> mais estudados da <em>Era Mesozoica</em>, o <em>Tyrannosaurus rex</em> destaca-se pela dentição robusta e mordida de alta potência no fim do Cretáceo.</p>
+          <p>Veja mais sobre o método científico na página <a href="sobre-paleontologia.html">sobre paleontologia e sítios fósseis</a>.</p>
         </article>
 
         <article>
-          <h3>Uberabatitan ribeiroi</h3>
+          <h3>Uberabatitan ribeiroi: dinossauros do Brasil em Uberaba</h3>
           <figure>
-            <img src="img/uberabatitan.jpg" alt="Reconstrução esquelética de um saurópode titanossauro de pescoço longo" width="640" height="400">
-            <figcaption>Reconstrução de titanossauro encontrado em Peirópolis, Uberaba (MG).</figcaption>
+            <img src="img/uberabatitan.jpg" alt="Esqueleto montado de titanossauro de grande porte em exposição" width="640" height="400" loading="lazy">
+            <figcaption>Titanossauro associado aos achados de Uberaba (MG).</figcaption>
           </figure>
-          <p>Descoberto no sítio paleontológico de Peirópolis, em <strong>Uberaba (MG)</strong>, o <em>Uberabatitan ribeiroi</em> é o maior dinossauro já descrito no Brasil, chegando a ultrapassar 26 metros de comprimento.</p>
-          <p>Espécie descrita formalmente em <time datetime="2008-07">julho de 2008</time>.</p>
+          <p>Os <strong>dinossauros do Brasil em Uberaba</strong>, especialmente na região de Peirópolis, incluem o titanossauro <em>Uberabatitan ribeiroi</em>, um dos maiores saurópodes já descritos no país.</p>
         </article>
 
         <article>
-          <h3>Archaeopteryx lithographica</h3>
+          <h3>Archaeopteryx lithographica: transição evolutiva</h3>
           <figure>
-            <img src="img/archaeopteryx.jpg" alt="Placa de calcário com impressão fóssil detalhada das penas e asas do Archaeopteryx" width="640" height="400">
-            <figcaption>Espécime de Berlim preservado em calcário litográfico.</figcaption>
+            <img src="img/archaeopteryx.jpg" alt="Fóssil em calcário mostrando estrutura óssea e penas preservadas" width="640" height="400" loading="lazy">
+            <figcaption>Fóssil preservado em calcário do Jurássico Superior.</figcaption>
           </figure>
-          <p>Considerado um <strong>fóssil de transição</strong> fundamental, o <em>Archaeopteryx</em> apresentava características de répteis terópodes — como dentes e cauda óssea — combinadas com penas assimétricas adaptadas ao voo.</p>
-          <p>Primeiro esqueleto completo encontrado em <time datetime="1861">1861</time>, na Alemanha.</p>
+          <p>Na <em>paleontologia</em>, o <em>Archaeopteryx</em> evidencia a ligação evolutiva entre dinossauros terópodes e aves modernas.</p>
         </article>
       </section>
 
-      <!-- Seção 2: Tabela acessível -->
       <section id="eras" aria-labelledby="t-eras">
-        <h2 id="t-eras">Linha do Tempo da Era Mesozoica</h2>
+        <h2 id="t-eras">Períodos da Era Mesozoica</h2>
         <div class="tabela-responsiva">
           <table>
-            <caption>Principais períodos geológicos e dinossauros característicos</caption>
+            <caption>Divisão temporal da Era Mesozoica e registros fósseis</caption>
             <thead>
               <tr>
                 <th scope="col">Período</th>
-                <th scope="col">Intervalo (Milhões de Anos)</th>
-                <th scope="col">Clima Predominante</th>
-                <th scope="col">Espécie Representativa</th>
+                <th scope="col">Intervalo</th>
+                <th scope="col">Clima</th>
+                <th scope="col">Exemplo</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th scope="row">Triássico</th>
-                <td>252 a 201 Ma</td>
-                <td>Quente e árido (supercontinente Pangeia)</td>
+                <td>252–201 Ma</td>
+                <td>Quente e seco</td>
                 <td>Staurikosaurus pricei</td>
               </tr>
               <tr>
                 <th scope="row">Jurássico</th>
-                <td>201 a 145 Ma</td>
-                <td>Úmido e tropical com florestas densas</td>
+                <td>201–145 Ma</td>
+                <td>Úmido e tropical</td>
                 <td>Brachiosaurus altithorax</td>
               </tr>
               <tr>
                 <th scope="row">Cretáceo</th>
-                <td>145 a 66 Ma</td>
-                <td>Temperado com altos níveis oceânicos</td>
-                <td>Triceratops horridus</td>
+                <td>145–66 Ma</td>
+                <td>Temperado</td>
+                <td>Uberabatitan ribeiroi</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
 
-      <!-- Seção 3: Formulário de Contato Semântico -->
       <section id="contato" aria-labelledby="t-contato">
-        <h2 id="t-contato">Envie sua Dúvida ou Relato de Achado</h2>
+        <h2 id="t-contato">Contato e Curadoria</h2>
         <form action="#" method="post">
           <fieldset>
-            <legend>Identificação do Pesquisador ou Visitante</legend>
-
-            <label for="nome">Nome completo</label>
+            <legend>Seus dados</legend>
+            <label for="nome">Nome</label>
             <input id="nome" name="nome" type="text" autocomplete="name" required>
 
-            <label for="email">E-mail para resposta</label>
+            <label for="email">E-mail</label>
             <input id="email" name="email" type="email" autocomplete="email" required>
 
-            <label for="data-observacao">Data da visita ou descoberta</label>
-            <input id="data-observacao" name="data_observacao" type="date">
+            <label for="data-visita">Data de referência</label>
+            <input id="data-visita" name="data_visita" type="date">
           </fieldset>
 
           <fieldset>
-            <legend>Detalhes da Mensagem</legend>
-
-            <label for="assunto">Assunto</label>
-            <select id="assunto" name="assunto">
-              <option value="duvida">Dúvida sobre paleontologia</option>
-              <option value="museu">Visitação a sítios e museus</option>
-              <option value="registro">Relato de registro fóssil</option>
-            </select>
-
-            <label for="mensagem">Mensagem</label>
+            <legend>Mensagem</legend>
+            <label for="mensagem">Sua pergunta ou observação</label>
             <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
           </fieldset>
 
-          <button type="submit">Enviar Mensagem</button>
+          <button type="submit">Enviar</button>
         </form>
       </section>
     </main>
 
-    <!-- Conteúdo Relacionado -->
-    <aside id="curiosidades" aria-labelledby="t-curiosidades">
-      <h2 id="t-curiosidades">Notas de Campo</h2>
-      
-      <h3>Como se forma um fóssil?</h3>
-      <p>A fossilização é um evento <strong>raro</strong>. O organismo precisa ser soterrado rapidamente por sedimentos para evitar a decomposição completa, permitindo que minerais substituam os tecidos orgânicos ao longo de milhões de anos.</p>
-
-      <h3>Dicas para Visitantes</h3>
+    <aside aria-label="Informações complementares">
+      <h2>Guia Rápido</h2>
+      <p>Saiba mais sobre <a href="sobre-paleontologia.html">sítios paleontológicos e metodologia</a> para entender como os fósseis são escavados e catalogados.</p>
       <ul>
-        <li>Nunca remova rochas ou fragmentos de áreas de preservação paleontológica.</li>
-        <li>Visite o Museu dos Dinossauros em Peirópolis (Uberaba/MG) para ver fósseis originais.</li>
-        <li>Consulte acervos digitais da Sociedade Brasileira de Paleontologia.</li>
+        <li>Preserve sempre o local do achado.</li>
+        <li>Consulte instituições científicas credenciadas.</li>
       </ul>
-
-      <details>
-        <summary>O que diferencia um fóssil corporal de um icnofóssil?</summary>
-        <p>Fósseis corporais são restos diretos do organismo (ossos, dentes, conchas), enquanto icnofósseis são vestígios de atividade biológica, como pegadas, tocas e coprólitos.</p>
-      </details>
     </aside>
   </div>
 
   <footer>
     <div class="container">
-      <address>
-        Curadoria: <a href="mailto:contato@paleomundo.edu.br">contato@paleomundo.edu.br</a> — Uberaba, MG
-      </address>
-      <p><small>&copy; <time datetime="2026">2026</time> PaleoMundo · Projeto da disciplina Linguagem de Script para Web (IFTM)</small></p>
+      <address>Contato: <a href="mailto:contato@paleomundo.exemplo.com">contato@paleomundo.exemplo.com</a></address>
+      <p><small>&copy; <time datetime="2026">2026</time> PaleoMundo · Linguagem de Script para Web</small></p>
     </div>
   </footer>
 </body>
