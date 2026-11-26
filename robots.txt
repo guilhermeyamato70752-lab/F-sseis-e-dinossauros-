@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paleomundo.exemplo.com/sitemap.xml
+Sitemap: https://guilhermeyamato70752-lab.github.io/F-sseis-e-dinossauros-/sitemap.xml
