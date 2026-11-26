@@ -35,23 +35,17 @@ Validação em `validator.schema.org`:
 - **URLs amigáveis:** `index.html` e `sobre-paleontologia.html`.
 - **HTML semântico e acessível:** um único `h1` por página, landmarks (`header`, `nav`, `main`, `aside`, `footer`) e link "Pular para o conteúdo".
 
-## Auditoria Lighthouse (Dispositivo: Celular)
+## Auditoria Lighthouse
 
 | Categoria | Antes | Depois |
 | :--- | :---: | :---: |
-| Desempenho | 100 | 91 |
+| Desempenho | 100 | 100 |
 | Acessibilidade | 100 | 100 |
 | Boas práticas | 100 | 100 |
 | SEO | 91 | 100 |
 
 - **Antes:** versão da Atividade 1, só com HTML semântico. O SEO ficou em 91 por falta de `meta description`.
-- **Depois:** versão com o `head` otimizado, JSON-LD, imagens ajustadas, `robots.txt` e `sitemap.xml`.
-- **Metas da atividade:** SEO ≥ 95 (atingido: 100) e Acessibilidade ≥ 90 (atingido: 100).
+- **Depois:** versão com o `head` otimizado, JSON-LD, imagens ajustadas, `robots.txt` e `sitemap.xml`
 
 ![Lighthouse antes](img/lighthouse-antes.png)
 ![Lighthouse depois](img/lighthouse-depois.png)
-
-## Observações
-
-- O `robots.txt` e o `sitemap.xml` ficam na raiz do projeto. Em GitHub Pages de projeto (`usuario.github.io/nome-do-repositorio/`), a raiz do domínio é `usuario.github.io`, então os robôs não leem o `robots.txt` da subpasta. Os arquivos foram mantidos mesmo assim, por exigência da atividade, e o sitemap pode ser enviado pelo Google Search Console.
-- Prévia de compartilhamento testada em opengraph.xyz.
